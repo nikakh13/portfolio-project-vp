@@ -1,14 +1,19 @@
+:root {
+  --main-color: #452b1a;
+  --background: #f6eee9;
+}
+
 body {
-  background-color: #f6eee9;
+  background-color: #ffffff;
 }
 
 h3,
 h1,
 h4,
-button {
+.first-screen-link {
   font-family: "Poppins", sans-serif;
   text-align: center;
-  color: #452b1a;
+  color: var(--main-color);
   font-weight: bold;
 }
 
@@ -27,15 +32,17 @@ h4 {
   margin: 48px 0px;
 }
 
-button {
+.first-screen-link {
   display: block;
   margin: 0 auto;
   font-size: 20px;
-  background: #452b1a;
-  color: #f6eee9;
+  background: var(--main-color);
+  color: var(--background);
   border-radius: 15px;
   padding: 10px 20px;
   border: 1px solid;
+  text-decoration: none;
+  max-width: 15%;
 }
 
 .icon {
@@ -43,5 +50,11 @@ button {
   margin: 30px 10px;
   display: flex;
   justify-content: center;
-  color: #452b1a;
+  color: var(--main-color);
+}
+
+.first-sight {
+  text-align: center;
+  background-color: var(--background);
+  padding: 150px 20px;
 }
