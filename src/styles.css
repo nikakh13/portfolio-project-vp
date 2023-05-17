@@ -37,3 +37,11 @@ button {
   padding: 10px 20px;
   border: 1px solid;
 }
+
+.icon {
+  font-size: 40px;
+  margin: 30px 10px;
+  display: flex;
+  justify-content: center;
+  color: #452b1a;
+}
