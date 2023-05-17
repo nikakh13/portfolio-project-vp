@@ -1,0 +1,39 @@
+body {
+  background-color: #f6eee9;
+}
+
+h3,
+h1,
+h4,
+button {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #452b1a;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 85px;
+  margin: 57px 0px;
+}
+
+h3 {
+  font-size: 48px;
+  margin: 48px 0px;
+}
+
+h4 {
+  font-size: 35px;
+  margin: 48px 0px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  background: #452b1a;
+  color: #f6eee9;
+  border-radius: 15px;
+  padding: 10px 20px;
+  border: 1px solid;
+}
