@@ -87,7 +87,7 @@ h2 {
   color: var(--main-color);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 990px) {
   h1 {
     font-size: 62px;
   }
