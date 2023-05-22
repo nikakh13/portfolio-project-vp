@@ -66,10 +66,6 @@ h4 {
   padding: 150px 20px;
 }
 
-.photo-myself {
-  border-radius: 10px;
-}
-
 .content-container h1 {
   font-size: 70px;
   line-height: 80px;
@@ -88,8 +84,9 @@ h4 {
   line-height: 30px;
   padding-right: 40px;
 }
-.content-container img {
-  border-radius: 15px;
+
+img {
+  border-radius: 20px;
 }
 
 .content-container h5 {
@@ -142,6 +139,11 @@ h2 {
   color: var(--main-color);
 }
 
+.navbar-brand {
+  color: var(--main-color);
+  font-family: var(--default-font-family);
+}
+
 @media (max-width: 990px) {
   h1 {
     font-size: 62px;
@@ -162,7 +164,34 @@ h2 {
     display: block;
     margin: 0 auto;
   }
-  .projects-content {
-    margin: 15px;
+
+  .content-container {
+    padding: 50px 20px;
+  }
+
+  .content-container h1 {
+    font-size: 54px;
+    margin: 15px 0px 25px 0px;
+    line-height: 65px;
+  }
+
+  .content-container h2 {
+    margin: 15px 0px;
+  }
+  .content-container h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 30px;
+    margin: 15px 0px 25px 0px;
+    padding: 0px;
+  }
+
+  .my-photo {
+    margin: 30px 0px;
+  }
+
+  .home-content {
+    padding: 50px 20px;
   }
 }
