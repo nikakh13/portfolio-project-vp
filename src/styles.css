@@ -92,6 +92,14 @@ h4 {
   border-radius: 15px;
 }
 
+.content-container h5 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  margin: 10px;
+}
+
 .contact-page {
   padding: 150px 20px;
 }
