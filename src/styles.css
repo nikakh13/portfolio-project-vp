@@ -98,16 +98,23 @@ h4 {
   text-align: center;
   line-height: 30px;
   margin: 10px;
+  color: var(--main-color);
 }
 
-.contact-page {
-  padding: 150px 20px;
-}
 .contact-page h2 {
   font-size: 18px;
   font-weight: 400;
   text-align: justify;
   line-height: 30px;
+}
+
+.contact-page h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-text {
+  padding-right: 40px;
 }
 
 h2 {
