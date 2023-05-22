@@ -62,7 +62,7 @@ h4 {
   padding: 150px 20px;
 }
 
-.about-me {
+.content-container {
   padding: 150px 20px;
 }
 
@@ -70,23 +70,26 @@ h4 {
   border-radius: 10px;
 }
 
-.about-me h1 {
+.content-container h1 {
   font-size: 70px;
   line-height: 80px;
   text-align: left;
   margin: 0px 0px 60px 0px;
 }
-.about-me h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   text-align: left;
 }
-.about-me h3 {
+.content-container h3 {
   font-size: 18px;
   font-weight: 400;
   text-align: justify;
   line-height: 30px;
   padding-right: 40px;
+}
+.content-container img {
+  border-radius: 15px;
 }
 
 .contact-page {
