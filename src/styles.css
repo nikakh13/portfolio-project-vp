@@ -89,6 +89,16 @@ h4 {
   padding-right: 40px;
 }
 
+.contact-page {
+  padding: 150px 20px;
+}
+.contact-page h2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 30px;
+}
+
 h2 {
   font-size: 64px;
   font-family: var(--headings-font-family);
