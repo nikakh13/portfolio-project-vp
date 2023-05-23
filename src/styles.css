@@ -142,6 +142,29 @@ h2 {
 .navbar-brand {
   color: var(--main-color);
   font-family: var(--default-font-family);
+  margin-left: 62px;
+}
+
+.active {
+  color: var(--main-color) !important;
+}
+
+.nav-link {
+  font-size: 18px;
+  margin: 0px 5px;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: var(--main-color);
+}
+
+.last-nav-link {
+  margin-right: 62px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
 }
 
 @media (max-width: 990px) {
@@ -193,5 +216,18 @@ h2 {
 
   .home-content {
     padding: 50px 20px;
+  }
+  .navbar-brand {
+    margin-left: 0px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    margin: 0px 5px;
+    font-weight: 600;
+  }
+
+  .last-nav-link {
+    margin-right: 0px;
   }
 }
