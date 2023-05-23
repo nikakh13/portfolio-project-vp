@@ -48,6 +48,12 @@ h4 {
   font-weight: 300;
 }
 
+.first-screen-link:hover {
+  background: var(--background);
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
 .first-sight {
   text-align: center;
   background-color: var(--background);
@@ -55,7 +61,7 @@ h4 {
 }
 
 .content-container {
-  padding: 150px 20px;
+  padding: 150px 20px 0px 20px;
 }
 
 .content-container h1 {
@@ -120,6 +126,11 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-projects:hover {
+  background: var(--background);
+  border: 1px solid var(--main-color);
 }
 
 .projects-content {
@@ -214,6 +225,11 @@ footer .contact-box {
   padding: 15px 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+  border: 1px solid var(--main-color);
+}
+
+.btn-branding:hover {
+  border: 1px solid var(--main-color);
 }
 
 @media (max-width: 990px) {
@@ -278,5 +294,17 @@ footer .contact-box {
 
   .last-nav-link {
     margin-right: 0px;
+  }
+
+  .home-content {
+    padding: 20px;
+  }
+
+  footer .contact-box {
+    padding: 30px 60px;
+  }
+
+  footer h4 {
+    font-size: 26px;
   }
 }
