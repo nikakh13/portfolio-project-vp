@@ -48,14 +48,6 @@ h4 {
   font-weight: 300;
 }
 
-.icon {
-  font-size: 40px;
-  margin: 30px 10px;
-  display: flex;
-  justify-content: center;
-  color: var(--main-color);
-}
-
 .first-sight {
   text-align: center;
   background-color: var(--background);
@@ -165,6 +157,63 @@ h2 {
 
 .navbar-collapse {
   justify-content: flex-end;
+}
+
+.icon {
+  font-size: 24px;
+  margin: 30px 10px;
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  padding: 11px 12px;
+  border-radius: 50%;
+  background: var(--background);
+}
+
+.icon:hover {
+  color: var(--background);
+  background: var(--main-color);
+}
+
+footer {
+  margin: 70px 0px 30px 0px;
+}
+
+footer h4 {
+  font-size: 48px;
+  font-family: var(--headings-font-family);
+  margin: 0 0 8px 0;
+}
+footer a {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+footer .contact-box {
+  background: var(--background);
+  padding: 30px 120px;
+  border-radius: 15px;
+  margin-bottom: 58px;
+}
+
+.email-link-footer {
+  color: var(--main-color);
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 10px;
+}
+
+.btn-branding {
+  background: var(--main-color);
+  border-radius: 15px;
+  color: var(--background);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 990px) {
