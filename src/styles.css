@@ -10,6 +10,10 @@ body {
   font-family: var(--default-font-family);
 }
 
+.bg-body-tertiary {
+  background: var(--background) !important;
+}
+
 h3,
 h1,
 h4,
@@ -61,7 +65,7 @@ h4 {
 }
 
 .content-container {
-  padding: 150px 20px 0px 20px;
+  padding: 120px 20px 0px 20px;
 }
 
 .content-container h1 {
@@ -135,6 +139,18 @@ h2 {
 
 .projects-content {
   text-align: justify;
+}
+
+.proj-text {
+  font-size: 67px;
+  color: var(--main-color);
+  font-weight: bold;
+  font-family: var(--headings-font-family);
+  margin: 0px 0px 55px 0px;
+}
+
+.coming-project {
+  opacity: 0.5;
 }
 
 .project-head {
