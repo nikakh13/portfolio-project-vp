@@ -219,6 +219,20 @@ footer .contact-box {
   margin-bottom: 58px;
 }
 
+.git-link {
+  text-align: center;
+  margin-top: 13px;
+  font-size: 12px;
+}
+
+.git-link a {
+  color: #d0baac;
+}
+
+.git-link a:hover {
+  color: var(--main-color);
+}
+
 .email-link-footer {
   color: var(--main-color);
   font-size: 24px;
@@ -242,6 +256,26 @@ footer .contact-box {
 
 .btn-branding:hover {
   border: 1px solid var(--main-color);
+}
+
+.btn-branding-contact-form {
+  background: var(--main-color);
+  border-radius: 15px;
+  color: var(--background);
+  font-size: 15px;
+  line-height: 16px;
+  padding: 15px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--main-color);
+}
+
+.btn-branding-contact-form:hover {
+  border: 1px solid var(--main-color);
+}
+
+.border {
+  border: 0px !important;
 }
 
 .navbar-brand {
